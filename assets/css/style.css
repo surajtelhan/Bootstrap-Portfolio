@@ -1,0 +1,115 @@
+html {
+	margin: 0px;
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-image: url(/assets/images/backgroundImage.jpg);
+	margin-bottom: 80px;
+}
+
+nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;    
+	background: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+	border-bottom: 1px solid #cccccc;
+}
+
+.navbar-brand {
+	background: #4aaaa5;
+	color: #ffffff;
+}
+
+.my-name {
+	float: left;
+	color: #ffffff;
+}
+
+.main {
+	margin-top: 20px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55px; 
+	background: #666666;
+	text-align: center;
+	vertical-align: bottom;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 5px solid #4aaaa5;
+}
+
+.copy {
+	position: absolute;
+	bottom: 0px;
+}
+
+#bio-photo {
+	float: left;
+	padding-right: 20px;
+}
+
+.page-title {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.label {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 5px;
+	height: 35px;
+	background: #4aaaa5;
+	position: relative;
+	bottom: 50px;
+	left: 0px;
+	right: 0px;
+}
+
+form {
+	padding-bottom: 20px;
+}
+
+.portfolio-item {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom:35px;
+	right:0px;
+	opacity: 0;
+	background: #1c403e;
+}
+
+.portfolio-item:hover .overlay {
+	opacity: 0.6;
+}
+
+.page-break {
+	height: 2px;
+	width: 98%;
+	background: #cccccc;
+	margin-bottom: 20px;
+}
